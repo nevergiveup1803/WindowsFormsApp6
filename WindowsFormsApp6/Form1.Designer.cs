@@ -65,11 +65,12 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(390, 260);
+            this.label3.Location = new System.Drawing.Point(387, 260);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(107, 13);
             this.label3.TabIndex = 3;
             this.label3.Text = "Время затраченное";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // Form1
             // 

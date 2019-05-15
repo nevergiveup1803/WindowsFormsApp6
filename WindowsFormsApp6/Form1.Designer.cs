@@ -31,7 +31,7 @@
             this.button = new System.Windows.Forms.Button();
             this.labelTimeStart = new System.Windows.Forms.Label();
             this.labelTimeEnd = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button
@@ -49,34 +49,34 @@
             this.labelTimeStart.AutoSize = true;
             this.labelTimeStart.Location = new System.Drawing.Point(387, 128);
             this.labelTimeStart.Name = "labelTimeStart";
-            this.labelTimeStart.Size = new System.Drawing.Size(35, 13);
+            this.labelTimeStart.Size = new System.Drawing.Size(74, 13);
             this.labelTimeStart.TabIndex = 1;
-            this.labelTimeStart.Text = "label1";
+            this.labelTimeStart.Text = "labelTimeStart";
             // 
             // labelTimeEnd
             // 
             this.labelTimeEnd.AutoSize = true;
             this.labelTimeEnd.Location = new System.Drawing.Point(387, 202);
             this.labelTimeEnd.Name = "labelTimeEnd";
-            this.labelTimeEnd.Size = new System.Drawing.Size(35, 13);
+            this.labelTimeEnd.Size = new System.Drawing.Size(71, 13);
             this.labelTimeEnd.TabIndex = 2;
-            this.labelTimeEnd.Text = "label2";
+            this.labelTimeEnd.Text = "labelTimeEnd";
             // 
-            // label1
+            // label3
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(390, 260);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "label1";
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(390, 260);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(107, 13);
+            this.label3.TabIndex = 3;
+            this.label3.Text = "Время затраченное";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.labelTimeEnd);
             this.Controls.Add(this.labelTimeStart);
             this.Controls.Add(this.button);
@@ -92,7 +92,7 @@
         private System.Windows.Forms.Button button;
         private System.Windows.Forms.Label labelTimeStart;
         private System.Windows.Forms.Label labelTimeEnd;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label3;
     }
 }
 

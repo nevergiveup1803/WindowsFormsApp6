@@ -19,7 +19,8 @@ namespace WindowsFormsApp6
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            DateTime timestart = DateTime.Now;
+            labelTimeStart.Text = timestart.ToString();
         }
     }
 }
